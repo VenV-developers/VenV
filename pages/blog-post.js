@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import { Fragment, useEffect } from "react";
 
 const BlogPost = () => {
@@ -6,10 +8,17 @@ const BlogPost = () => {
   }, []);
 
   return (
+    <>
+    <Head>
+        <meta name="description" content="This is the about page of VenV." />
+        <meta name="keywords" content="Blog,Blogs,posts,Latest Web Development Trends, Web Design Insights, Freelance Development Tips, WordPress Development News, E-commerce Website Strategies, Responsive Design Trends, Mobile-friendly Development Insights, SEO Best Practices, CMS Website Tips, HTML5 CSS3 Updates, PHP Development Techniques, JavaScript Coding Tricks, Front-end Development Trends, Back-end Web Development Strategies, Website Maintenance Advice, UI/UX Design Trends, Freelance Web Programming Blog, Expert Insights on Web Development, Website Development Industry News,VenV,venv,indian freelancer," />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
     <Fragment>
-      <a href="/#blog" className="back-btn">
+      
+      <p className="back-btn" onClick={() => { window.location.href = '/#blog'; }}>
         <i className="fa-solid fa-arrow-left"></i>
-      </a>
+      </p>
       <div className="blog-content">
         <h1>My Blog</h1>
         {/* ARTICLE STARTS */}
@@ -49,6 +58,7 @@ const BlogPost = () => {
         {/* ARTICLE ENDS */}
       </div>
     </Fragment>
+    </>
   );
 };
 export default BlogPost;

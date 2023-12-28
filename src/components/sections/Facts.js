@@ -1,5 +1,13 @@
+import Head from "next/head";
+
 const Facts = () => {
   return (
+    <>
+    <Head>
+        <meta name="description" content="This is the Facts page of VenV." />
+        <meta name="keywords" content="Facts,VenV,venv,indian freelancer,Freelance Website Development, Web Development Services, Hire Website Developer, Custom Website Design, Affordable Web Development, Professional Web Developer, Expert WordPress Developer, E-commerce Website Development, Responsive Website Design, Mobile-friendly Web Development, SEO-Optimized Websites, CMS Website Development, HTML5 CSS3 Development, PHP Web Development, JavaScript Developer, Front-end Development, Back-end Web Development, Website Maintenance Services, UI/UX Design for Websites, Freelance Web Programming" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
     <section className="facts">
       <div className="flex-column-mobile">
         {/* SINGE FACT ITEM STARTS */}
@@ -84,6 +92,7 @@ const Facts = () => {
         src="assets/separator-opposite.png"
       />
     </section>
+    </>
   );
 };
 export default Facts;

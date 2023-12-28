@@ -1,5 +1,12 @@
+import Head from "next/head";
 const Testimonials = () => {
   return (
+    <>
+    <Head>
+        <meta name="description" content="This is the testimonials page of VenV." />
+        <meta name="keywords" content="Testimonials,VenV,venv,indian freelancer,Client Reviews for Web Development, Website Design Testimonials, Freelance Developer Feedback, Happy Customers for Custom Websites, Positive Experiences with Web Development, Praise for Affordable Web Solutions, Client Success Stories with Professional Web Developers, WordPress Development Testimonials, E-commerce Website Satisfaction, Responsive Design Raves, SEO-Optimized Websites Success Stories, CMS Website Development Appreciation, HTML5 CSS3 Development Acclaim, PHP Web Development Kudos, JavaScript Developer Endorsements, Front-end and Back-end Development Cheers, Website Maintenance and Support Testimonials, UI/UX Design Client Appreciation, Freelance Web Programming Success Stories" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
     <section className="testimonials">
       <div className="testimonials-container flex-column-mobile">
         {/* TESTIMONIAL ITEM STARTS */}
@@ -39,6 +46,7 @@ const Testimonials = () => {
         src="assets/separator-opposite.png"
       />
     </section>
+    </>
   );
 };
 export default Testimonials;
