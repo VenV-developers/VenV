@@ -7,7 +7,7 @@ const BlogPost = () => {
 
   return (
     <Fragment>
-      <a href="/" className="back-btn">
+      <a href="/#blog" className="back-btn">
         <i className="fa-solid fa-arrow-left"></i>
       </a>
       <div className="blog-content">
@@ -35,45 +35,13 @@ const BlogPost = () => {
           <img src="assets/blog/main-post.jpg" alt="Blog image" />
           <div className="post-content">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            In today's fast-paced digital landscape, the art of creating content that not only attracts your audience's attention but also ranks high in Google's search results is a strategic endeavor. Gain a thorough awareness of your audience's requirements, inclinations, and problems before anything else. It's important to conduct in-depth keyword research; use resources like Google Keyword Planner to find and easily add relevant keywords to your article. The foundation of any effective content strategy is still quality; make sure your writing is thorough, well-researched, and interesting.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est
-              laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Make your on-page SEO more effective by employing meaningful titles, headers, and meta descriptions, as well as ensuring mobile friendliness. One important consideration is how quickly a page loads. To achieve this, optimize your code, use browser caching, and compress your graphics. Establishing a robust backlink profile is crucial; to draw in high-quality backlinks, cultivate connections within the sector, look into guest posting possibilities, and promote social media distribution.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est
-              laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Keep your material fresh by updating it on a regular basis to reflect the most recent facts and market trends. To improve user experience, include multimedia elements to your material, such as pictures, videos, and infographics. Lastly, to improve exposure and interaction, aggressively promote your material on social media. Combining these components will make your material stand out in the crowded field of internet search results while also making it interesting.
             </p>
           </div>
           {/* CONTENT ENDS */}

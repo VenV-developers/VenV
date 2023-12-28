@@ -30,13 +30,12 @@ const Blog = () => {
                   How To Publish Content That Ranks On Google
                 </span>
                 <p>
-                  ncididunt ut labore et dolore magna aliqua. Ut enim aminim
-                  veniam...
+                In today's fast-paced digital landscape, the art of creating content that...
                 </p>
                 <div className="meta d-flex align-items-center">
                   <div className="d-flex align-items-center">
                     <i className="fa-regular fa-calendar" />
-                    <span>9 Apr 2022</span>
+                    <span>28 Dec 2023</span>
                   </div>
                   <div className="d-flex align-items-center">
                     <i className="fa-regular fa-comments" />
@@ -50,7 +49,7 @@ const Blog = () => {
         {/* POST ITEM ENDS */}
         {/* POST ITEM STARTS */}
         <div className="animated-layer fade-in-right-animation fadeInUp wow">
-          <Link href="/blog-post" legacyBehavior>
+          <Link href="blog-post_2" legacyBehavior>
             <a>
               <span className="img-holder">
                 <img src="assets/blog/blog-post-2.jpg" alt="" />
@@ -61,13 +60,12 @@ const Blog = () => {
                   How Efficient Site Structure Can Boost SEO
                 </span>
                 <p>
-                  ncididunt ut labore et dolore magna aliqua. Ut enim aminim
-                  veniam...
+                In the ever-changing realm of online visibility, the importance of a well...
                 </p>
                 <div className="meta d-flex align-items-center">
                   <div className="d-flex align-items-center">
                     <i className="fa-regular fa-calendar" />
-                    <span>21 Feb 2022</span>
+                    <span>28 Dec 2023</span>
                   </div>
                   <div className="d-flex align-items-center">
                     <i className="fa-regular fa-comments" />
@@ -81,7 +79,7 @@ const Blog = () => {
         {/* POST ITEM ENDS */}
         {/* POST ITEM STARTS */}
         <div className="animated-layer fade-in-right-animation fadeInUp wow">
-          <Link href="/blog-post" legacyBehavior>
+          <Link href="/blog-post_3" legacyBehavior>
             <a>
               <span className="img-holder">
                 <img src="assets/blog/blog-post-3.jpg" alt="" />
@@ -89,16 +87,15 @@ const Blog = () => {
               <div className="content">
                 <span className="category">essentials</span>
                 <span className="title">
-                  Change Management for Customer Success
+                  Harnessing the Power of AI in Everyday Tech
                 </span>
                 <p>
-                  ncididunt ut labore et dolore magna aliqua. Ut enim aminim
-                  veniam...
+                Artificial Intelligence (AI) has seamlessly woven itself into our daily tech...
                 </p>
                 <div className="meta d-flex align-items-center">
                   <div className="d-flex align-items-center">
                     <i className="fa-regular fa-calendar" />
-                    <span>1 Jan 2022</span>
+                    <span>28 Dec 2023</span>
                   </div>
                   <div className="d-flex align-items-center">
                     <i className="fa-regular fa-comments" />
