@@ -1,5 +1,31 @@
+import { useEffect } from 'react';
 import Head from "next/head";
+
 const SalimovHead = () => {
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.ctrlKey && (event.key === 'l' || event.key === 'L')) {
+        event.preventDefault();
+        window.open('https://www.linkedin.com/in/the-cipher-vivek/', '_blank');
+      }else if (event.key === 'h') {
+        window.location.href = '/#home'; 
+      } else if (event.key === 'c') {
+        window.location.href = '/#contact'; 
+      } else if (event.key === 'a') {
+        window.location.href = '/#my-photo'; 
+      } else if (event.key === 'p') {
+        window.location.href = '/#portfolio';
+      } else if (event.key === 'b') {
+        window.location.href = '/#blog';
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
+
   return (
     <Head>
       <title>VenV</title>
@@ -23,8 +49,8 @@ const SalimovHead = () => {
       {/* CSS Skin File */}
       {/* <link rel="stylesheet" href="css/skins/yellow.css" /> */}
       {/* Live Style Switcher - demo only */}
-
       <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+
     </Head>
   );
 };

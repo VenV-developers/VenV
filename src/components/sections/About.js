@@ -1,5 +1,14 @@
+import Head from 'next/head'
+
 const About = () => {
   return (
+    <>
+    <Head>
+        <title>About Page</title>
+        <meta name="description" content="This is the about page of VenV." />
+        <meta name="keywords" content="About,VenV,venv,indian freelancer,Freelance Website Development, Web Development Services, Hire Website Developer, Custom Website Design, Affordable Web Development, Professional Web Developer, Expert WordPress Developer, E-commerce Website Development, Responsive Website Design, Mobile-friendly Web Development, SEO-Optimized Websites, CMS Website Development, HTML5 CSS3 Development, PHP Web Development, JavaScript Developer, Front-end Development, Back-end Web Development, Website Maintenance Services, UI/UX Design for Websites, Freelance Web Programming" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
     <section className="about main-section flex-column-mobile" id="about">
       {/* INFO HOLDER STARTS */}
       <div className="info flex-column-mobile">
@@ -310,6 +319,7 @@ const About = () => {
         src="assets/separator.png"
       />
     </section>
+    </>
   );
 };
 export default About;

@@ -1,5 +1,14 @@
+import Head from "next/head";
+
 const Contact = () => {
   return (
+    <>
+    <Head>
+        <title>About Page</title>
+        <meta name="description" content="This is the about page of VenV." />
+        <meta name="keywords" content="venv,Contact Freelance Web Developer, Get in Touch for Website Development, Hire Web Developer for Projects, Reach Out for Custom Website Design, Contact Affordable Web Development Services, Professional Web Developer Contact Info, Expert WordPress Developer Contact, E-commerce Website Development Inquiry, Responsive Website Design Contact, Mobile-friendly Web Development Reach, SEO-Optimized Websites Consultation, CMS Website Development Contact, HTML5 CSS3 Development Inquiry, PHP Web Development Contact, JavaScript Developer for Hire, Front-end Development Questions, Back-end Web Development Contact, Website Maintenance Services Inquiry, UI/UX Design for Websites Consultation, Freelance Web Programming Contact" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
     <section className="contact main-section flex-column-mobile" id="contact">
       {/* TITLE STARTS */}
       <div className="custom-title">
@@ -83,6 +92,7 @@ const Contact = () => {
         src="assets/separator.png"
       />
     </section>
+    </>
   );
 };
 export default Contact;
