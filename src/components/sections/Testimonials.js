@@ -21,7 +21,7 @@ const Testimonials = () => {
               <span className="person">Darpan Kadu</span>
               <span className="job">Director - TechInnovate Mobility</span>
             </p>
-            <img src="assets/testimonials/testimonial-1.jpg" alt="" />
+            <img src="assets/testimonials/testimonial-1.jpeg" alt="" />
           </div>
         </div>
         {/* TESTIMONIAL ITEM ENDS */}
@@ -35,7 +35,7 @@ const Testimonials = () => {
               <span className="person">Shaishav Sir</span>
               <span className="job">Owner - Mahatma Valley</span>
             </p>
-            <img src="assets/testimonials/testimonial-2.jpg" alt="" />
+            <img src="assets/testimonials/testimonial-2.png" alt="" />
           </div>
         </div>
         {/* TESTIMONIAL ITEM ENDS */}

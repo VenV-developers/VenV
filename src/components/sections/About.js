@@ -19,7 +19,7 @@ const About = () => {
         >
           <div>
             <div>
-              <img className="my-photo" src="assets/about.jpg" alt="" />
+              <img className="my-photo" src="assets/VenV.jpeg" alt="" />
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ const About = () => {
             </span>
             <span>
               <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                Walker
+                Developers
               </span>
             </span>
           </h2>
@@ -140,9 +140,9 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
-                <i className="devicon-jquery-plain" />
+                <i className="devicon-rust-plain" />
               </span>
-              <h4>jQuery</h4>
+              <h4>RustLang</h4>
             </div>
             {/* SKILL ITEM ENDS */}
           </div>

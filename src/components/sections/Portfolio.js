@@ -31,7 +31,7 @@ const Portfolio = () => {
           <div className="main-content">
             <img
               className="img-fluid"
-              src="assets/portfolio/project-1.jpg"
+              src="assets/portfolio/project-1.png"
               alt="Image Project"
             />
           </div>
@@ -51,7 +51,7 @@ const Portfolio = () => {
                   <span>
                     <i className="fa-regular fa-user" /> Client :
                   </span>
-                  <span>Envato</span>
+                  <span>Local Business Vendor</span>
                 </li>
                 <li>
                   <span>
@@ -91,32 +91,32 @@ const Portfolio = () => {
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           {/**/}<div className="details">
-            <h4>Youtube Project</h4>
+            <h4>SIH 2023</h4>
             <div>
               <ul>
                 <li>
                   <span>
                     <i className="fa-regular fa-file-lines" /> Project :
                   </span>
-                  <span>Short Film</span>
+                  <span>Offline running LLM</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-regular fa-user" /> Client :
                   </span>
-                  <span>Videohive</span>
+                  <span>Hackathon Team Project</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-regular fa-hourglass" /> Duration :
                   </span>
-                  <span>8 months</span>
+                  <span>3 months</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-solid fa-code-branch" /> Frameworks :
                   </span>
-                  <span>After Effects</span>
+                  <span>LangChain</span>
                 </li>
               </ul>
             </div>
@@ -138,13 +138,13 @@ const Portfolio = () => {
               className="swiper swiper-portfolio-item"
             >
               <SwiperSlide className="swiper-slide">
-                <img src="assets/portfolio/project-2.jpg" title="img" />
+                <img src="assets/portfolio/project-3.png" title="img" />
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                <img src="assets/portfolio/project-3.jpg" title="img" />
+                <img src="assets/portfolio/project-4.png" title="img" />
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                <img src="assets/portfolio/project-1.jpg" title="img" />
+                <img src="assets/portfolio/project-5.png" title="img" />
               </SwiperSlide>
               <div className="swiper-pagination" />
             </Swiper>
@@ -201,7 +201,7 @@ const Portfolio = () => {
             >
               <img
                 className="img-fluid"
-                src="assets/portfolio/project-3.jpg"
+                src="assets/portfolio/project-2.png"
                 alt="External Project"
               />
             </a>
