@@ -2,7 +2,7 @@ import Header from "@/src/components/Header";
 import ScrollBar from "@/src/components/ScrollBar";
 import About from "@/src/components/sections/About";
 import Blog from "@/src/components/sections/Blog";
-import Clients from "@/src/components/sections/Clients";
+// import Clients from "@/src/components/sections/Clients";
 import Contact from "@/src/components/sections/Contact";
 import Copyright from "@/src/components/sections/Copyright";
 import Facts from "@/src/components/sections/Facts";
@@ -34,10 +34,8 @@ const Index = () => {
             <Separator type={"up"} />
             <Contact />
             <Separator type={"down"} />
-            <Clients />
-            <Separator type={"up"} />
             <Blog />
-            <Separator type={"down"} />
+            <Separator type={"up"} />
             <Copyright />
           </main>
         </div>

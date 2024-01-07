@@ -57,11 +57,6 @@ export const salimovSlider = {
     },
     spaceBetween: 50,
     grabCursor: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-      type: "bullets",
-    },
   },
   portfolioItems: {
     slidesPerView: 1,

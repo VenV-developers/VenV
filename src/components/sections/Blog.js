@@ -22,7 +22,7 @@ const Blog = () => {
           <Link href="/blog-post" legacyBehavior>
             <a>
               <span className="img-holder">
-                <img src="assets/blog/blog-post-1.jpg" alt="" />
+                <img src="assets/blog/blog-post-1.jpeg" alt="" />
               </span>
               <div className="content">
                 <span className="category">design</span>
@@ -30,7 +30,8 @@ const Blog = () => {
                   How To Publish Content That Ranks On Google
                 </span>
                 <p>
-                In today's fast-paced digital landscape, the art of creating content that...
+                  In today's fast-paced digital landscape, the art of creating
+                  content that...
                 </p>
                 <div className="meta d-flex align-items-center">
                   <div className="d-flex align-items-center">
@@ -52,7 +53,7 @@ const Blog = () => {
           <Link href="blog-post_2" legacyBehavior>
             <a>
               <span className="img-holder">
-                <img src="assets/blog/blog-post-2.jpg" alt="" />
+                <img src="assets/blog/blog-post-2.jpeg" alt="" />
               </span>
               <div className="content">
                 <span className="category">development</span>
@@ -60,7 +61,8 @@ const Blog = () => {
                   How Efficient Site Structure Can Boost SEO
                 </span>
                 <p>
-                In the ever-changing realm of online visibility, the importance of a well...
+                  In the ever-changing realm of online visibility, the
+                  importance of a well...
                 </p>
                 <div className="meta d-flex align-items-center">
                   <div className="d-flex align-items-center">
@@ -82,7 +84,7 @@ const Blog = () => {
           <Link href="/blog-post_3" legacyBehavior>
             <a>
               <span className="img-holder">
-                <img src="assets/blog/blog-post-3.jpg" alt="" />
+                <img src="assets/blog/blog-post-3.jpeg" alt="" />
               </span>
               <div className="content">
                 <span className="category">essentials</span>
@@ -90,7 +92,8 @@ const Blog = () => {
                   Harnessing the Power of AI in Everyday Tech
                 </span>
                 <p>
-                Artificial Intelligence (AI) has seamlessly woven itself into our daily tech...
+                  Artificial Intelligence (AI) has seamlessly woven itself into
+                  our daily tech...
                 </p>
                 <div className="meta d-flex align-items-center">
                   <div className="d-flex align-items-center">
