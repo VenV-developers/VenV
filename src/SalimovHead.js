@@ -6,7 +6,7 @@ const SalimovHead = () => {
     const handleKeyDown = (event) => {
       if (event.ctrlKey && (event.key === 'l' || event.key === 'L')) {
         event.preventDefault();
-        window.open('https://www.linkedin.com/in/the-cipher-vivek/', '_blank');
+        window.open('https://www.linkedin.com/company/venv-developers/', '_blank');
       }else if (event.key === 'h') {
         window.location.href = '/#home'; 
       } else if (event.key === 'c') {
